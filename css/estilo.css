@@ -1,0 +1,72 @@
+.contenedor 
+{
+    background-color: rgb(156, 68, 238);
+    padding: 10px;
+    font-size: 23px;
+    text-align: center;
+    display: grid;
+    grid-gap:10px ;
+    grid-template-columns: 2fr 2fr 1fr;
+    grid-template-rows: 1fr 1fr 5fr 1fr 1fr;
+    grid-template-areas:"header header header"
+                        "nav    nav     nav"
+                        "section1 section2 ads"
+                        "foot   foot    foot"
+                        "face   im      you" ;
+}
+.contenedor .header
+{
+    background-color: gold;
+    grid-column: header;
+}
+.contenedor .nav
+{
+    background-color: burlywood;
+    grid-column: nav;
+}
+.contenedor .section
+{
+    background-color: azure;
+    grid-column: section;
+}
+.contenedor .section1
+{
+    background-color: azure;
+    grid-column: section1;
+}
+.contenedor .section2
+{
+    background-color: azure;
+    grid-column: section2;
+}
+.contenedor .ads
+{
+    background-color: burlywood;
+    grid-column: ads;
+}
+.contenedor .ads .hp
+{
+    background-color: rgb(20, 7, 154);
+    grid-column: hp;
+}
+
+.contenedor .foot
+{
+    background-color: green;
+    grid-column: foot;
+}
+.contenedor .face
+{
+    background-color: aqua;
+    grid-column: face;
+}
+.contenedor .im
+{
+    background-color: aqua;
+    grid-column: im;
+}
+.contenedor .you
+{
+    background-color: aqua;
+    grid-column: you;
+}
